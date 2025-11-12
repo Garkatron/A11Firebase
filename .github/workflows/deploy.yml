@@ -25,9 +25,7 @@ jobs:
       - name: Install Firebase CLI
         run: npm install -g firebase-tools
 
-      - name: Build project (si aplica)
-        run: npm run build
- 
+  
 
       - name: Deploy to Firebase Hosting
         env:
